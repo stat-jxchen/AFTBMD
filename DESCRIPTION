@@ -1,0 +1,29 @@
+Package: AFTBMD
+Title: Additive Accelerated Failure Model
+Version: 0.0.0.1
+Date: 2022-05-02
+Authors@R: c(
+    person(given = "Jiaxiang",
+           family = "Chen",
+           role = c("aut", "cre"),
+           email = "Stat.JiaxiangChen@gmail.com"),
+    person(given = "Li",
+           family = "Liu",
+           role = c("aut"),
+           email = "lliu.math@whu.edu.cn"))
+Maintainer: JiaXiang Chen <Stat.JiaxiangChen@gmail.com>
+Description: Model pursuit and variable selection for ultra high dimension additive accelerated failure time model.
+Depends: R (>= 4.1.0)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+        splines2,
+        Rcpp (>= 1.0.7)
+LinkingTo: Rcpp
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
