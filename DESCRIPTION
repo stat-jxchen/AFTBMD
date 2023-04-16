@@ -1,7 +1,7 @@
 Package: AFTBMD
 Title: Additive Accelerated Failure Model
 Version: 0.0.0.1
-Date: 2022-05-02
+Date: 2023-04-16
 Authors@R: c(
     person(given = "Jiaxiang",
            family = "Chen",
@@ -13,7 +13,7 @@ Authors@R: c(
            email = "lliu.math@whu.edu.cn"))
 Maintainer: JiaXiang Chen <Stat.JiaxiangChen@gmail.com>
 Description: Model pursuit and variable selection for ultra high dimension additive accelerated failure time model.
-Depends: R (>= 4.1.0)
+Depends: R (>= 4.2.0)
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
